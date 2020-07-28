@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li button {
+  background: maroon;
+  color: #fff;
+}
+.edit-button {
+  box-shadow: 0px;
+  background: transparent;
+  border: 0px;
+  color: blue;
+  padding: 0px;
+  margin: 0px;
+}
+.count-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.count-wrapper-count {
+  font-size: 2rem;
+}
